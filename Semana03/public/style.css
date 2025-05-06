@@ -1,0 +1,116 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, sans-serif; 
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+header {
+    width: 100%;
+    background-color:red;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    position: fixed;
+    z-index: 1000;
+}
+.classificacao ul{
+    display: flex;
+    list-style: none;
+}
+.classificacao li{
+    margin: 10px;
+}
+.classificacao a{
+    color: white;
+    text-decoration: none;
+}
+.pesquisa input{
+    padding: 5px;
+}
+.pesquisa button{
+    padding: 5px 10px;
+}
+.menuLateral {
+    position: fixed;
+    left: 0px;
+    top: 68px;
+    width: 250px;
+    background-color: lightgray;
+    color: white;
+    padding: 20px;
+    height: 100cm;
+}
+.menuLateral form{
+    display: flex;
+    flex-direction: column;
+}
+.menuLateral input{
+    margin-bottom: 2px;
+    padding:3px;
+}
+.menuLateral button{
+    padding: 6px;
+    background-color: darkslategray;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+main {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 260px;
+    width: 80%;
+}
+.principal{
+    flex: 2;
+    padding: 20px;
+}
+.novidades{
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.novidades .novoA,.novidades .novoB, .novidades .NovoC{
+    margin-bottom: 15px;
+}
+.extras{
+    margin-left: 260px;
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.extras .filmeA p, .extras .filmeB p, .extras .filmeC p{
+        width: 50%; 
+        text-align: center;
+        word-wrap: break-word;
+        font-size: 14px;
+        padding: 5px 30px 25px 5px; 
+}
+.extras h3{
+    width: 20px 10px;
+    background-color:lightcoral;
+    color: white;
+    align-items: center;
+    padding: 15px 20px;
+}
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    position: relative;
+    margin-top: 20px;
+}
