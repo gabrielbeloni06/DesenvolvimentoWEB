@@ -1,0 +1,51 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+  }
+  h1, h2, h3 {
+    font-weight: 700;
+  }
+  header h1 {
+    font-size: 1.8rem;
+  }
+  #filme-destaque {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  #filme-destaque img {
+    height: auto;
+    max-height: 350px;
+    object-fit: cover;
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  #filme-destaque img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  .card-filme {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+  }
+  .card-filme:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  }
+  .card-filme img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-height: 250px;
+    object-fit: cover;
+  }
+  .card-filme .card-body h5 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  footer p {
+    font-size: 0.9rem;
+    margin: 0;
+  }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Detalhes do Filme</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="bg-dark text-white p-3 sticky-top">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1 class="m-0">🎬 PUC Filmes</h1>
+      <a href="index.html" class="btn btn-outline-light">Voltar</a>
+    </div>
+  </header>
+  <main class="container my-5" id="detalhes-filme">
+  </main>
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <p class="m-0">&copy; 2025 PUC Filmes | Gabriel Beloni</p>
+  </footer>
+  <script>
+    const filmes = [
+      {
+        id: 1,
+        titulo: "Minecraft: O Filme",
+        descricao: "Baseado no famoso jogo de construção, o filme leva os jogadores para uma nova jornada cheia de aventuras em blocos.",
+        imagem: "img/minecraft.jpg"
+      },
+      {
+        id: 2,
+        titulo: "A Presença",
+        descricao: "Um suspense nacional que promete arrepiar até os mais corajosos. Segredos, sombras e um mistério sombrio.",
+        imagem: "img/a-presenca.jpg"
+      },
+      {
+        id: 3,
+        titulo: "Five Nights at Freddy's",
+        descricao: "Baseado no famoso jogo de terror, o filme traz uma nova perspectiva sobre os animatrônicos e suas histórias sombrias.",
+        imagem: "img/outro.jpg"
+      }
+    ];
+    const params = new URLSearchParams(window.location.search);
+    const filmeId = parseInt(params.get("id"));
+    const filme = filmes.find(f => f.id === filmeId);
+    const container = document.getElementById("detalhes-filme");
+    if (filme) {
+      container.innerHTML = `
+        <div class="card shadow-lg">
+          <img src="${filme.imagem}" class="card-img-top" alt="${filme.titulo}">
+          <div class="card-body">
+            <h2 class="card-title">${filme.titulo}</h2>
+            <p class="card-text">${filme.descricao}</p>
+            <a href="index.html" class="btn btn-primary">Voltar ao Catálogo</a>
+          </div>
+        </div>
+      `;
+    } else {
+      container.innerHTML = `
+        <div class="alert alert-danger">
+          Filme não encontrado.
+        </div>
+      `;
+    }
+  </script>
+</body>
+</html>
