@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de filmes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header class="bg-primary text-white p-3 fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">PUC Filmes</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="pesquisa d-flex">
+                    <input type="text" class="form-control" placeholder="Digite aqui">
+                    <button class="btn btn-secondary">Buscar</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container mt-5 pt-5">
+        <div class="row">
+            <section class="principal col-12 col-md-8 p-3">
+                <article>
+                    <h2>Filme em Destaque</h2>
+                    <img src="https://picsum.photos/600/400" class="img-fluid" alt="Filme Destaque">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, suscipit?</p>
+                </article>
+            </section>
+            <section class="novidades col-12 col-md-4 p-3">
+                <h3>Novidades</h3>
+                <article class="novoA">
+                    <img src="https://picsum.photos/200/100" class="img-fluid" alt="Novo Filme">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </article>
+                <article class="novoB">
+                    <img src="https://picsum.photos/200/100" class="img-fluid" alt="Novo Filme">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </article>
+                <article class="novoC">
+                    <img src="https://picsum.photos/200/100" class="img-fluid" alt="Novo Filme">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </article>
+            </section>
+        </div>
+    </main>
+    <section class="extras">
+        <h3>Explore mais</h3>
+        <div class="row">
+            <article class="filmeA col-12 col-sm-4 text-center">
+                <img src="https://picsum.photos/200" class="img-fluid">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, mollitia!(Legenda)</p>
+            </article>
+            <article class="filmeB col-12 col-sm-4 text-center">
+                <img src="https://picsum.photos/200" class="img-fluid">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, reiciendis.(Legenda)</p>
+            </article>
+            <article class="filmeC col-12 col-sm-4 text-center">
+                <img src="https://picsum.photos/200" class="img-fluid">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, voluptatibus!(Legenda)</p>
+            </article>
+        </div>
+    </section>
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2025 PUCFILMES, Gabriel Beloni. Direitos Autorais.</p>
+    </footer> 
+</body>
+</html>
