@@ -1,0 +1,54 @@
+{
+  "filmes": [
+    {
+      "id":1,
+      "titulo": "Minecraft: O Filme",
+      "descricao": "Baseado no famoso jogo.",
+      "imagem": "img/minecraft.jpg",
+      "trailer": "https://www.youtube.com/embed/EVKYAAES6JQ",
+      "genero": "Aventura / Fantasia",
+      "duracao": "1h 45min",
+      "classificacao": "Livre"
+    },
+    {
+      "id":2,
+      "titulo": "A Presença",
+      "descricao": "Suspense nacional do ano.",
+      "imagem": "img/a-presenca.jpg",
+      "trailer": "https://www.youtube.com/embed/QbXOCYU1dQc",
+      "genero": "Terror / Suspense",
+      "duracao": "1h 30min",
+      "classificacao": "14 anos"
+    },
+    {
+      "id":3,
+      "titulo": "Five Nights at Freddy's",
+      "descricao": "Uma história de terror baseada no jogo.",
+      "imagem": "img/outro.jpg",
+      "trailer": "https://www.youtube.com/embed/akJMKqpfUww",
+      "genero": "Terror",
+      "duracao": "1h 50min",
+      "classificacao": "16 anos"
+    },
+    {
+      "id":4,
+      "titulo": "Avatar 2",
+      "descricao": "A continuação da saga de Pandora.",
+      "imagem": "img/avatar2.jpg",
+      "trailer": "https://www.youtube.com/embed/x5pZI-DmtrE",
+      "genero": "Ficção / Aventura",
+      "duracao": "3h 12min",
+      "classificacao": "12 anos"
+    },
+    {
+      "id":5,
+      "titulo": "Interestelar",
+      "descricao": "A busca por um novo lar para a humanidade.",
+      "imagem": "img/interestelar.jpg",
+      "trailer": "https://www.youtube.com/embed/i6avfCqKcQo",
+      "genero": "Ficção Científica / Drama",
+      "duracao": "2h 49min",
+      "classificacao": "10 anos"
+    }
+  ]
+}

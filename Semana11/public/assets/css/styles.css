@@ -1,0 +1,170 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #141414;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  color: white;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #e50914;
+}
+
+input, button {
+  border-radius: 30px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #444;
+  background-color: #222;
+  color: white;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #e50914;
+}
+
+button.btn-primary {
+  background-color: #e50914;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+button.btn-primary:hover {
+  background-color: #b20710;
+}
+
+#carouselFilmes {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.8);
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 50%;
+  padding: 10px;
+  transition: 0.3s ease;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: rgba(0,0,0,0.6);
+}
+
+#filme-destaque {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #333;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+#filme-destaque img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.card {
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #222;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.card .card-body h5 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #e50914;
+}
+
+footer {
+  background-color: #222;
+  padding: 40px 0;
+  color: #ddd;
+  border-top: 2px solid #444;
+}
+
+footer a {
+  color: #ddd;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #e50914;
+}
+
+footer h6 {
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+footer .col-md-4 p, footer .col-md-8 p {
+  font-size: 0.9rem;
+}
+
+footer .col-md-4 p i, footer .col-md-8 p i {
+  color: #e50914;
+}
+
+#lista-filmes .col-md-3 {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .carousel-inner {
+      max-height: 300px;
+  }
+  .carousel-item img {
+      max-height: 300px;
+  }
+  .input-group {
+      flex-direction: column;
+  }
+  header h1 {
+      font-size: 1.6rem;
+  }
+}
