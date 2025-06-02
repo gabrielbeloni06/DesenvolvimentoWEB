@@ -1,0 +1,77 @@
+{
+  "usuarios": [
+    {
+      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
+      "login": "admin",
+      "senha": "123",
+      "nome": "Administrador do Sistema",
+      "email": "admin@abc.com"
+    },
+    {
+      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "login": "user",
+      "senha": "123",
+      "nome": "Usuario Comum",
+      "email": "user@abc.com"
+    },
+    {
+      "id": "4ffe3e2b-4d2f-45aa-8072-865e90edd656",
+      "nome": "UsuárioTeste01",
+      "login": "gabriel123",
+      "email": "teste123@1",
+      "senha": "gabriel"
+    }
+  ],
+  "filmes": [
+    {
+      "id": "1",
+      "titulo": "Minecraft: O Filme",
+      "descricao": "Baseado no famoso jogo.",
+      "imagem": "img/minecraft.jpg",
+      "trailer": "https://www.youtube.com/embed/EVKYAAES6JQ",
+      "genero": "Aventura / Fantasia",
+      "duracao": "1h 45min",
+      "classificacao": "Livre"
+    },
+    {
+      "id": "2",
+      "titulo": "A Presença",
+      "descricao": "Suspense nacional do ano.",
+      "imagem": "img/a-presenca.jpg",
+      "trailer": "https://www.youtube.com/embed/QbXOCYU1dQc",
+      "genero": "Terror / Suspense",
+      "duracao": "1h 30min",
+      "classificacao": "14 anos"
+    },
+    {
+      "id": "3",
+      "titulo": "Five Nights at Freddy's",
+      "descricao": "Uma história de terror baseada no jogo.",
+      "imagem": "img/outro.jpg",
+      "trailer": "https://www.youtube.com/embed/akJMKqpfUww",
+      "genero": "Terror",
+      "duracao": "1h 50min",
+      "classificacao": "16 anos"
+    },
+    {
+      "id": "4",
+      "titulo": "Avatar 2",
+      "descricao": "A continuação da saga de Pandora.",
+      "imagem": "img/avatar2.jpg",
+      "trailer": "https://www.youtube.com/embed/x5pZI-DmtrE",
+      "genero": "Ficção / Aventura",
+      "duracao": "3h 12min",
+      "classificacao": "12 anos"
+    },
+    {
+      "id": "5",
+      "titulo": "Interestelar",
+      "descricao": "A busca por um novo lar para a humanidade.",
+      "imagem": "img/interestelar.jpg",
+      "trailer": "https://www.youtube.com/embed/i6avfCqKcQo",
+      "genero": "Ficção Científica / Drama",
+      "duracao": "2h 49min",
+      "classificacao": "10 anos"
+    }
+  ]
+}
