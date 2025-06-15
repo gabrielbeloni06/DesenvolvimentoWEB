@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Página de Cadastro e Login</title>
+    <link rel="stylesheet" href="assets/css/cad.css" />
+    <script src="assets/scripts/cad.js" defer></script> 
+</head>
+<body>
+    <button id="btn-voltar" onclick="location.href='index.html'">← Voltar para Home</button>
+
+    <div class="container">
+        <div class="form-section login">
+            <h2>Login</h2>
+            <form>
+                <label for="login-email">Email / Login</label>
+                <input type="text" id="login-email" name="email_or_login" required />
+                <label for="login-senha">Senha</label>
+                <input type="password" id="login-senha" name="senha" required />
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+        <div class="form-section cadastro">
+            <h2>Cadastro</h2>
+            <form id="form-cadastro">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required />
+                <label for="login">Login</label>
+                <input type="text" id="login" name="login" required />
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" required />
+                <label for="confirmar-senha">Confirmar Senha</label>
+                <input type="password" id="confirmar-senha" name="confirmar_senha" required />
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="mensagem" style="text-align: center; margin-top: 20px; font-weight: bold;"></div>
+
+</body>
+</html>

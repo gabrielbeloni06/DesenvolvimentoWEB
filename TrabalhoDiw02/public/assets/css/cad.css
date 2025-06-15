@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+  padding-top: 60px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.form-section {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+h2 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2e2e2e;
+  color: #ffffff;
+}
+
+form input:focus {
+  outline: none;
+  border: 1px solid #4caf50;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: yellowgreen;
+}
+#btn-voltar {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  padding: 10px 25px; 
+  background-color: red;
+  color: #f0f0f0;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  z-index: 9999;
+  font-size: 16px;
+}
+
+#btn-voltar:hover {
+  background-color: yellowgreen;
+  color: white;
+}
+
+h2 + table {
+  margin: 30px auto;
+  width: 80%;
+  max-width: 900px;
+  border-collapse: collapse;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+table th, table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+table th {
+  background-color: #2e2e2e;
+  color: #ffffff;
+}
+
+table td {
+  color: #dddddd;
+}
+
+table td:last-child {
+  text-align: center;
+}
+
+table tr:hover {
+  background-color: #2a2a2a;
+}
+
+#mensagem {
+  text-align: center;
+  padding: 15px;
+  color: #4caf50;
+  font-weight: bold;
+}

@@ -1,0 +1,42 @@
+{
+
+  "name": "trabalho2diwgabrielegidiosantosbeloni",
+
+  "version": "1.0.0",
+
+  "description": "Este é o meu trabalho 2 de DIW com a entrega de todas as funcionalidades funcionando em sua versão final",
+
+  "main": "index.js",
+
+  "scripts": {
+
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "start": "json-server --watch ./db/db.json"
+
+  },
+
+  "dependencies": {
+
+    "bcryptjs": "^3.0.2",
+
+    "cors": "^2.8.5",
+
+    "express": "^5.1.0",
+
+    "json-server": "^0.17.0",
+
+    "jsonwebtoken": "^9.0.2",
+
+    "uuid": "^11.1.0"
+
+  },
+
+  "keywords": [],
+
+  "author": "",
+
+  "license": "ISC"
+
+}
+
